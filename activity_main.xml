@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.udacity.MainActivity">
+
+    <ImageView
+        android:src="@drawable/udacity1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/almendra_bold_italic"
+        android:padding="@dimen/_16dp"
+        android:paddingStart="@dimen/_16dp"
+        android:paddingEnd="@dimen/_16dp"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_56sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:autoLink="phone"
+        android:drawableStart="@drawable/ic_call"
+        android:fontFamily="@string/serif"
+        android:linksClickable="true"
+        android:paddingBottom="@dimen/_16dp"
+        android:paddingEnd="@dimen/_16dp"
+        android:paddingStart="@dimen/_16dp"
+        android:paddingTop="@dimen/_4dp"
+        android:text="@string/_650_555_5555"
+        android:textColorLink="@color/white"
+        android:textSize="@dimen/_28sp" />
+
+    <TextView
+        android:id="@+id/add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/add"
+        android:autoLink="web"
+        android:drawableStart="@drawable/ic_public"
+        android:fontFamily="@font/almendra"
+        android:linksClickable="true"
+        android:paddingEnd="@dimen/_16dp"
+        android:paddingStart="@dimen/_16dp"
+        android:paddingTop="@dimen/_4dp"
+        android:text="@string/www_udacity_com"
+        android:textColorLink="@color/white"
+        android:textSize="@dimen/_28sp" />
+
+    <TextView
+        android:id="@+id/add3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/add1"
+        android:autoLink="map"
+        android:drawableStart="@drawable/ic_business"
+        android:fontFamily="@font/almendra"
+        android:linksClickable="true"
+        android:paddingEnd="@dimen/_16dp"
+        android:paddingStart="@dimen/_16dp"
+        android:paddingTop="@dimen/_4dp"
+        android:text="@string/_2465_latham_st_nmountain_view_ca_94043"
+        android:textColorLink="@color/white"
+        android:textSize="@dimen/_28sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/add3"
+        android:paddingStart="@dimen/_16dp"
+        android:paddingEnd="@dimen/_16dp"
+        android:fontFamily="@string/serif"
+        android:text="@string/udacity"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_48sp"
+        android:textStyle="bold"
+         />
+</RelativeLayout>
