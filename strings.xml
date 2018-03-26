@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Udacity</string>
+    <string name="welcome">Welcome</string>
+    <string name="_650_555_5555">650-555-5555</string>
+    <string name="www_udacity_com">www.udacity.com</string>
+    <string name="udacity">Udacity</string>
+    <string name="todo">TODO</string>
+    <string name="_2465_latham_st_nmountain_view_ca_94043">2465 Latham St\nMountain View Ca 94043</string>
+</resources>
